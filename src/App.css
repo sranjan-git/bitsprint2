@@ -1,0 +1,36 @@
+/* Reset some basic elements for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif; /* Material-UI's default font */
+  background-color: #f5f5f5; /* Light grey background to match Material-UI's default */
+}
+
+/* Ensure that the root div takes up the full height */
+#root {
+  height: 100%;
+}
+
+/* General typography styling */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* A utility class for margin */
+.margin-top {
+  margin-top: 16px;
+}
+
+/* A utility class for padding */
+.padding {
+  padding: 16px;
+}
